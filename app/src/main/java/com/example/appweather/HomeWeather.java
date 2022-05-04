@@ -57,7 +57,7 @@ public class HomeWeather extends Fragment {
                 String city = editTextSearch.getText().toString();
                 GetCurrentWeatherData(city);
             }
-            
+
         });
         return v;
     }
