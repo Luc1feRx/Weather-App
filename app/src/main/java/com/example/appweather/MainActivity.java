@@ -73,7 +73,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 currentFragment = FRAGMENT_HOME;
             }
         }else if(id == R.id.nav_seven_days){
-
+                replaceFragment(new SevenDaysWeather());
+                currentFragment = FRAGMENT_7DAYS;
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
